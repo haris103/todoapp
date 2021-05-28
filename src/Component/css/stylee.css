@@ -12,7 +12,7 @@
     align-items: center;
 }
 .child-div{
-    background-color: brown;
+    background-color: rgb(0, 0, 0);
     width: 350px;
     height: 400px;
     display: flex;
@@ -27,6 +27,13 @@ figure{
     text-align: center;
     padding-bottom: 25px;
 
+}
+figure img {
+    width: 30px;
+    height: 30px;
+}
+figure figcaption{
+    color: blueviolet;
 }
 .addItems{
 background-color: rgb(255, 255, 255);
@@ -52,7 +59,7 @@ border-style: none;
     outline: none;
 }
 .add-btn{
-    color: rgb(192, 182, 180);
+    color: rgb(0, 0, 0);
     padding-right: 5px;
 }
 .deleteItems{
@@ -100,22 +107,22 @@ overflow: hidden;
 width: 100%;
 }
 .eachItem:hover{
-background-color: rgb(214, 121, 45);
+background-color: blueviolet;
 }
 .delete-btn{
-    color: rgb(192, 182, 180);
+    color: rgb(0, 0, 0);
     /* padding: 0 2px; */
     /* float: right; */
 }
 .delete-btn:hover{
-    color: black;
+    color: rgb(248, 248, 248);
 }
 .edit-btn{
     margin-right:  10px;
-    color: rgb(192, 182, 180);
+    color: rgb(0, 0, 0);
 }
 .edit-btn:hover{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .btnn{
     width: 170px;
@@ -123,18 +130,18 @@ background-color: rgb(214, 121, 45);
     /* padding: 10px 15px; */
     display: inline-block;
     /* background-color: rgb(69, 226, 21); */
-    
-
 }
-.btnn span{
-    width: inherit;
+.btnn:hover{
+    /* width: inherit;
     height: inherit;
     display: inline;
     position: relative;
     transition: 1s;
-    opacity: 1;
+    opacity: 1; */
+    background-color: blueviolet;
+
 }
-.btnn span:after{
+/* .btnn span:after{
     content: 'Remove All';
     position: absolute;
     right: -27px;
@@ -147,7 +154,7 @@ background-color: rgb(214, 121, 45);
     height: inherit;
     display: inline;
 
-}
+} */
 /* .btnn:hover span{
     opacity: 0;
 } */

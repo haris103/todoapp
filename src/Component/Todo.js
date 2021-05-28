@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../Images/pic8.PNG';
+import img from '../Images/1.png';
 import './css/stylee.css';
 import { useState } from 'react';
 const Todo = () =>{
@@ -40,6 +40,8 @@ setitems(updatedItems);
 }
 const removeAll = ()=>{
     setitems([]);
+    setInputData([]);
+
 }
 const editItem= (id)=>{
 const newEditItem = items.find((datta)=>{
@@ -85,7 +87,7 @@ value={inputData}
     })
 }
 </div>
-    <button className="btnn" onClick={removeAll}><span>CHECKLIST</span></button>
+    <button className="btnn" onClick={removeAll}>CHECKLIST</button>
     </div>
 </div>
         </>
