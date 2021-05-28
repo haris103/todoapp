@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-div{
+    background-color: brown;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+figure{
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+.addItems{
+background-color: rgb(255, 255, 255);
+height: 30px;
+width: 220px;
+padding-left: 10px;
+width: 240px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+border-radius: 2px; 
+margin-bottom: 20px;
+/* align-items: center; */
+}
+.addItems input{
+height: inherit;
+width: 100%;
+padding: 0px 10px;
+border-style: none;
+}
+.addItems input:focus{
+    outline: none;
+}
+.add-btn{
+    color: rgb(192, 182, 180);
+    padding-right: 5px;
+}
+.deleteItems{
+/* background-color: rgb(14, 236, 107); */
+/* height: 30px;
+width: 220px; */
+/* display: inline; */
+/* padding-left: 10px; */
+/* width: 240px; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+/* flex-direction: column; */
+/* border-radius: 2px; 
+top: 190px; */
+position: relative;
+overflow: auto;
+
+
+}
+.delete-btn:hover{
+    /* background-color: red; */
+    color: rgb(255, 255, 255);
+}
+.eachItem{
+    height: 30px;
+    width: 240px;
+    padding: 0px 10px;
+    border-style: none;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+background-color: rgb(255, 255, 255);
+position: relative;
+margin: 10px 0px;
+border-radius: 2px;
+}
+.eachItem h1{
+font-size: 15px;
+font-weight:lighter;
+/* float: left; */
+overflow: hidden;
+/* padding-right:3px; */
+width: 100%;
+}
+.eachItem:hover{
+background-color: rgb(214, 121, 45);
+}
+.delete-btn{
+    color: rgb(192, 182, 180);
+    /* padding: 0 2px; */
+    /* float: right; */
+}
+.delete-btn:hover{
+    color: black;
+}
+.edit-btn{
+    margin-right:  10px;
+    color: rgb(192, 182, 180);
+}
+.edit-btn:hover{
+    color: black;
+}
+.btnn{
+    width: 170px;
+    height: 30px;
+    /* padding: 10px 15px; */
+    display: inline-block;
+    /* background-color: rgb(69, 226, 21); */
+    
+
+}
+.btnn span{
+    width: inherit;
+    height: inherit;
+    display: inline;
+    position: relative;
+    transition: 1s;
+    opacity: 1;
+}
+.btnn span:after{
+    content: 'Remove All';
+    position: absolute;
+    right: -27px;
+    opacity: 0;
+    transition: 1s;
+    color: red;
+    font-size: 20px;
+    background-color: black;
+    width: inherit;
+    height: inherit;
+    display: inline;
+
+}
+/* .btnn:hover span{
+    opacity: 0;
+} */
+/* .btnn:hover span:after{
+opacity: 1;
+} */
+
+
+
+
